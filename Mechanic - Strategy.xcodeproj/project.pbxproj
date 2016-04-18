@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		5796D0511CC4251800286191 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0501CC4251800286191 /* main.swift */; };
+		5796D0591CC4262700286191 /* order_strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0581CC4262700286191 /* order_strategy.swift */; };
+		5796D05B1CC426C100286191 /* order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D05A1CC426C100286191 /* order.swift */; };
+		5796D05D1CC426F400286191 /* part.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D05C1CC426F400286191 /* part.swift */; };
+		5796D05F1CC4270200286191 /* car_type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D05E1CC4270200286191 /* car_type.swift */; };
+		5796D0611CC428AD00286191 /* mechanic_order_data_provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0601CC428AD00286191 /* mechanic_order_data_provider.swift */; };
+		5796D0631CC42B5000286191 /* mechanic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0621CC42B5000286191 /* mechanic.swift */; };
+		5796D0671CC42F8200286191 /* orderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0661CC42F8200286191 /* orderer.swift */; };
+		5796D06A1CC4305A00286191 /* acme_strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0691CC4305A00286191 /* acme_strategy.swift */; };
+		5796D06D1CC4310E00286191 /* acme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D06C1CC4310E00286191 /* acme.swift */; };
+		5796D06F1CC4358600286191 /* parts_supervisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D06E1CC4358600286191 /* parts_supervisor.swift */; };
+		5796D0711CC43CAC00286191 /* partsnstuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0701CC43CAC00286191 /* partsnstuff.swift */; };
+		5796D0731CC43EFD00286191 /* partsnstuff_strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0721CC43EFD00286191 /* partsnstuff_strategy.swift */; };
+		5796D0751CC4405A00286191 /* autopart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0741CC4405A00286191 /* autopart.swift */; };
+		5796D0771CC443C200286191 /* autopart_strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0761CC443C200286191 /* autopart_strategy.swift */; };
+		5796D07A1CC44FFE00286191 /* order_manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D0791CC44FFE00286191 /* order_manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +40,21 @@
 /* Begin PBXFileReference section */
 		5796D04D1CC4251800286191 /* Mechanic - Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mechanic - Strategy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5796D0501CC4251800286191 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5796D0581CC4262700286191 /* order_strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = order_strategy.swift; sourceTree = "<group>"; };
+		5796D05A1CC426C100286191 /* order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = order.swift; sourceTree = "<group>"; };
+		5796D05C1CC426F400286191 /* part.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = part.swift; sourceTree = "<group>"; };
+		5796D05E1CC4270200286191 /* car_type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = car_type.swift; sourceTree = "<group>"; };
+		5796D0601CC428AD00286191 /* mechanic_order_data_provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mechanic_order_data_provider.swift; sourceTree = "<group>"; };
+		5796D0621CC42B5000286191 /* mechanic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mechanic.swift; sourceTree = "<group>"; };
+		5796D0661CC42F8200286191 /* orderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderer.swift; sourceTree = "<group>"; };
+		5796D0691CC4305A00286191 /* acme_strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = acme_strategy.swift; sourceTree = "<group>"; };
+		5796D06C1CC4310E00286191 /* acme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = acme.swift; sourceTree = "<group>"; };
+		5796D06E1CC4358600286191 /* parts_supervisor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parts_supervisor.swift; sourceTree = "<group>"; };
+		5796D0701CC43CAC00286191 /* partsnstuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = partsnstuff.swift; sourceTree = "<group>"; };
+		5796D0721CC43EFD00286191 /* partsnstuff_strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = partsnstuff_strategy.swift; sourceTree = "<group>"; };
+		5796D0741CC4405A00286191 /* autopart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = autopart.swift; sourceTree = "<group>"; };
+		5796D0761CC443C200286191 /* autopart_strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = autopart_strategy.swift; sourceTree = "<group>"; };
+		5796D0791CC44FFE00286191 /* order_manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = order_manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +87,48 @@
 		5796D04F1CC4251800286191 /* Mechanic - Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				5796D0781CC44EA300286191 /* utility */,
+				5796D06B1CC430E800286191 /* vendors */,
+				5796D0681CC4303800286191 /* strategies */,
 				5796D0501CC4251800286191 /* main.swift */,
+				5796D0581CC4262700286191 /* order_strategy.swift */,
+				5796D05A1CC426C100286191 /* order.swift */,
+				5796D05C1CC426F400286191 /* part.swift */,
+				5796D05E1CC4270200286191 /* car_type.swift */,
+				5796D0621CC42B5000286191 /* mechanic.swift */,
+				5796D0661CC42F8200286191 /* orderer.swift */,
+				5796D0791CC44FFE00286191 /* order_manager.swift */,
 			);
 			path = "Mechanic - Strategy";
+			sourceTree = "<group>";
+		};
+		5796D0681CC4303800286191 /* strategies */ = {
+			isa = PBXGroup;
+			children = (
+				5796D0691CC4305A00286191 /* acme_strategy.swift */,
+				5796D0721CC43EFD00286191 /* partsnstuff_strategy.swift */,
+				5796D0761CC443C200286191 /* autopart_strategy.swift */,
+			);
+			name = strategies;
+			sourceTree = "<group>";
+		};
+		5796D06B1CC430E800286191 /* vendors */ = {
+			isa = PBXGroup;
+			children = (
+				5796D06C1CC4310E00286191 /* acme.swift */,
+				5796D0701CC43CAC00286191 /* partsnstuff.swift */,
+				5796D0741CC4405A00286191 /* autopart.swift */,
+			);
+			name = vendors;
+			sourceTree = "<group>";
+		};
+		5796D0781CC44EA300286191 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				5796D06E1CC4358600286191 /* parts_supervisor.swift */,
+				5796D0601CC428AD00286191 /* mechanic_order_data_provider.swift */,
+			);
+			name = utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +141,7 @@
 				5796D0491CC4251800286191 /* Sources */,
 				5796D04A1CC4251800286191 /* Frameworks */,
 				5796D04B1CC4251800286191 /* CopyFiles */,
+				5796D0571CC4252600286191 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -114,12 +184,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5796D0571CC4252600286191 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5796D0491CC4251800286191 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5796D06F1CC4358600286191 /* parts_supervisor.swift in Sources */,
+				5796D0631CC42B5000286191 /* mechanic.swift in Sources */,
+				5796D0751CC4405A00286191 /* autopart.swift in Sources */,
+				5796D0711CC43CAC00286191 /* partsnstuff.swift in Sources */,
+				5796D07A1CC44FFE00286191 /* order_manager.swift in Sources */,
+				5796D0671CC42F8200286191 /* orderer.swift in Sources */,
+				5796D05D1CC426F400286191 /* part.swift in Sources */,
 				5796D0511CC4251800286191 /* main.swift in Sources */,
+				5796D0771CC443C200286191 /* autopart_strategy.swift in Sources */,
+				5796D05B1CC426C100286191 /* order.swift in Sources */,
+				5796D0611CC428AD00286191 /* mechanic_order_data_provider.swift in Sources */,
+				5796D06D1CC4310E00286191 /* acme.swift in Sources */,
+				5796D0591CC4262700286191 /* order_strategy.swift in Sources */,
+				5796D06A1CC4305A00286191 /* acme_strategy.swift in Sources */,
+				5796D05F1CC4270200286191 /* car_type.swift in Sources */,
+				5796D0731CC43EFD00286191 /* partsnstuff_strategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
