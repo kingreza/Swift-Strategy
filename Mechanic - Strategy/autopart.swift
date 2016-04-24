@@ -10,7 +10,7 @@ import Foundation
 
 class AutoPart {
 
-  static var instace = AutoPart()
+  static var instance = AutoPart()
   private var expectedResponse: Bool {
     return self.selectedNumber % 2 == 0
   }

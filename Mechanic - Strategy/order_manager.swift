@@ -10,15 +10,15 @@ import Foundation
 
 class OrderManager {
   static var instance = OrderManager()
-  private var acmeStrategy: Orderer
-  private var partsnstuffStrategy: Orderer
-  private var autopartsStrategy: Orderer
+  private var acmeStrategy: OrderStrategy
+  private var partsnstuffStrategy: OrderStrategy
+  private var autopartsStrategy: OrderStrategy
   private var currentOrderId: Int
 
   private init() {
-    self.acmeStrategy = Orderer(strategy: ACMEStrategy())
-    self.partsnstuffStrategy = Orderer(strategy: PartsNStuffStrategy())
-    self.autopartsStrategy = Orderer(strategy: AutoPartsStrategy())
+    self.acmeStrategy = ACMEStrategy()
+    self.partsnstuffStrategy = PartsNStuffStrategy()
+    self.autopartsStrategy = AutoPartsStrategy()
     self.currentOrderId = 1558
   }
 
